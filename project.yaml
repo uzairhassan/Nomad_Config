@@ -1,0 +1,8 @@
+PROJECT: ekomi
+Jobname: testjob
+docker_image: 429316335035.dkr.ecr.eu-central-1.amazonaws.com/nginx-test:latest
+CPU: 500
+memory: 512
+ENV_PATH: /test
+type: worker
+command: while true; do sleep 1; date; done
