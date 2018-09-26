@@ -5,5 +5,5 @@ memory: 512
 ENV_PATH: /test
 type: worker
 project_name: nginx
-job_name: test2
+job_name: from_container
 command: while true; do sleep 1; date; done
